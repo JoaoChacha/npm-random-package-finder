@@ -1,9 +1,9 @@
 import * as React from 'react'
 import styled from 'styled-components'
+import LetterE from './components/LetterE/LetterE'
 import LetterH from './components/LetterH/LetterH'
 import LetterP from './components/LetterP/LetterP'
 import LetterY from './components/LetterY/LetterY'
-import LetterE from './components/LetterE/LetterE'
 
 const LogoWrapper = styled.div`
     display: flex;
@@ -38,8 +38,8 @@ const Letter = ({ LetterRest, height }: {LetterRest: React.FunctionComponent, he
 
 export default () => 
   <LogoWrapper>
-      <Letter LetterRest={LetterH} />
-      <Letter LetterRest={LetterY} />
-      <Letter LetterRest={LetterP} height="235px" />
-      <Letter LetterRest={LetterE} />
+    <Letter LetterRest={LetterH} />
+    <Letter LetterRest={LetterY} />
+    <Letter LetterRest={LetterP} height="235px" />
+    <Letter LetterRest={LetterE} />
   </LogoWrapper>
