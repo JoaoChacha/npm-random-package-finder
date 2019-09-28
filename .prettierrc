@@ -1,0 +1,8 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "newline-before-return": true,
+  "no-duplicate-variable": [true, "check-parameters"],
+  "semi": false
+}
