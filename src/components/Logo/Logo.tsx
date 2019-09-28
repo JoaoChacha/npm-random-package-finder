@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import LetterH from './components/LetterH/LetterH'
 import LetterP from './components/LetterP/LetterP'
 import LetterY from './components/LetterY/LetterY'
+import LetterE from './components/LetterE/LetterE'
 
 const LogoWrapper = styled.div`
     display: flex;
@@ -40,4 +41,5 @@ export default () =>
       <Letter LetterRest={LetterH} />
       <Letter LetterRest={LetterY} />
       <Letter LetterRest={LetterP} height="235px" />
+      <Letter LetterRest={LetterE} />
   </LogoWrapper>
